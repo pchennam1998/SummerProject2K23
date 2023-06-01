@@ -1,27 +1,31 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background: url('https://media4.giphy.com/media/BHNfhgU63qrks/giphy.gif?cid=ecf05e47f9xeng7obchbqx08wuxnb9gym4hrnwtu70pl93ht&ep=v1_gifs_search&rid=giphy.gif&ct=g') no-repeat center center fixed;
+  background-size: cover; */
+}
+
+.App-header {
+  background-color: transparent;
+  padding: 20px;
+  color: white;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  opacity: 0.5;
+}
+
+.App {
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -36,3 +40,5 @@
     transform: rotate(360deg);
   }
 }
+
+
