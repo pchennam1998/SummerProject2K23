@@ -110,14 +110,6 @@ export default function Header() {
         </video> */}
         </Toolbar>
       </AppBar>
-      <a
-          className="App-link"
-          href="https://github.com/pchennam1998"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello, This is Pavan Sai Chennam
-        </a>
     </div>
   );
 }

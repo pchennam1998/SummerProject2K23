@@ -23,19 +23,6 @@ const EducationAndProjects = () => {
     },
   ];
 
-  const projectsData = [
-    {
-      id: 1,
-      title: "Project 1",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      id: 2,
-      title: "Project 2",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-  ];
-
   return (
     <div>
       <Typography variant="h4" component="h2" gutterBottom>
@@ -57,26 +44,6 @@ const EducationAndProjects = () => {
                 </Typography>
                 <Typography variant="body2" color="p">
                   <b>Courses: </b>{education.courses}
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-        ))}
-      </Grid>
-
-      <Typography variant="h4" component="h2" gutterBottom>
-        Projects
-      </Typography>
-      <Grid xs={12} sm={6} md={6} sx={{ bgcolor: "#6082B6", p: 3 }}>
-        {projectsData.map((project) => (
-          <Grid item key={project.id} xs={12} sm={6} md={4}>
-            <Card>
-              <CardContent>
-                <Typography variant="h6" component="h3" gutterBottom>
-                  {project.title}
-                </Typography>
-                <Typography variant="body1" component="p">
-                  {project.description}
                 </Typography>
               </CardContent>
             </Card>
